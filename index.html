@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Git Training Demo</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    header {
+      background: #24292f;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+    }
+
+    header p {
+      margin: 0;
+      opacity: 0.8;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h2 {
+      margin-top: 0;
+    }
+
+    .git-flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      text-align: center;
+    }
+
+    .step {
+      padding: 20px 10px;
+      background: #f0f2f5;
+      border-radius: 10px;
+    }
+
+    .step strong {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #24292f;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 700px) {
+      .git-flow {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Git Training Demo 🚀</h1>
+    <p>Learning Git, GitHub & Version Control</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Welcome!</h2>
+
+      <p>
+        This webpage is being used as a live demonstration
+        for Git training.
+      </p>
+
+      <p>
+        We will use Git to track changes, create commits,
+        work with branches, push code to GitHub and deploy
+        this website using GitHub Pages.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Git Workflow</h2>
+
+      <div class="git-flow">
+
+        <div class="step">
+          <strong>1. Edit</strong>
+          Change your files
+        </div>
+
+        <div class="step">
+          <strong>2. Stage</strong>
+          git add
+        </div>
+
+        <div class="step">
+          <strong>3. Commit</strong>
+          Save a checkpoint
+        </div>
+
+        <div class="step">
+          <strong>4. Push</strong>
+          Send to GitHub
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Commands We Learned</h2>
+
+      <ul>
+        <li><code>git status</code></li>
+        <li><code>git add</code></li>
+        <li><code>git commit</code></li>
+        <li><code>git push</code></li>
+        <li><code>git pull</code></li>
+        <li><code>git branch</code></li>
+        <li><code>git merge</code></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🎯 Training Goal</h2>
+
+      <p>
+        Understand how code moves from your local computer
+        to a shared GitHub repository.
+      </p>
+
+      <p>
+        <strong>
+          Edit → Stage → Commit → Push → Pull Request → Merge
+        </strong>
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    Git Training • Sarvesh Gupta
+  </footer>
+
+</body>
+</html>
